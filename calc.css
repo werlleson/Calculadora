@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size:cover;
+    background-attachment:fixed ;
+}
+.calculadora{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+}
+.card{
+    border:1px solid black;
+    width: 268px;
+    height: 340px;
+}
+.card-num{
+   margin-left: auto;
+   margin-right: auto;
+}
+.TextCalc{
+    font-size: 40px;  
+    width: 200px; 
+    height: 70px;
+    
+}
+
+.num{
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border: none;
+    font-size: 30px;
+  
+    
+}
+.m{
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border: none;
+    background: orange;
+}
+
+
+.Ctext{
+    text-align: center;
+    width: 18px;
+    background-color: rgb(163, 245, 179);
+    border: none;
+    padding: 20px;
+    font-size: 30px;    
+
+}
